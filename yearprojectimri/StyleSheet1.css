@@ -1,0 +1,15 @@
+﻿body {
+ direction:rtl;
+ background-color:black;
+ color:white
+    
+}
+h1{
+    color: aquamarine;
+}
+h2{
+    color: darkslategrey;
+}
+p{
+    color: white
+}
