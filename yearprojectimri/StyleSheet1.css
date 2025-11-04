@@ -8,8 +8,15 @@ h1{
     color: aquamarine;
 }
 h2{
-    color: darkslategrey;
+    color: aqua
 }
 p{
-    color: white
+    color: cadetblue
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+a{
+    color:paleturquoise
 }

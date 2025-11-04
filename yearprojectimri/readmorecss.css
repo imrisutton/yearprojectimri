@@ -1,0 +1,11 @@
+﻿body {
+    direction: rtl;
+    background-color: black;
+    color: white
+}
+img{
+    float:right
+}
+p{
+    direction:rtl;
+}
