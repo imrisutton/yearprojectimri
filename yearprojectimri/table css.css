@@ -1,0 +1,49 @@
+﻿table, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin: auto
+}
+body {
+    direction: rtl;
+    background-color: black;
+    color: white;
+    
+}
+th{
+    font: bold 32px italic;
+    color: darkseagreen;
+    
+}
+.math{
+    background:firebrick;
+}
+.english {
+    background: darkblue;
+}
+.cs {
+    background: cadetblue;
+}
+.theory {
+    background: darkcyan;
+}
+.lashon {
+    background: chartreuse;
+}
+.thanach {
+    background: blueviolet;
+}
+.hang {
+    background: gold;
+}
+.hinoch {
+    background: darksalmon
+}
+.physics {
+    background: darkkhaki;
+}
+.history {
+    background: seagreen
+}
+.saproth{
+     background:mediumturquoise;
+}

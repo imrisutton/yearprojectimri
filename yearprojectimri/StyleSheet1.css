@@ -20,3 +20,7 @@ img {
 a{
     color:paleturquoise
 }
+table,td{
+    border:1px solid white;
+    border-collapse: collapse
+}

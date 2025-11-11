@@ -70,6 +70,7 @@
     <Content Include="elephantreadmore.html" />
     <Content Include="horsereadmore.html" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="HtmlPage3.html" />
     <Content Include="htmlt2.html" />
     <Content Include="image\download-removebg-preview %281%29.png" />
     <Content Include="image\download-removebg-preview %282%29.png" />
@@ -84,9 +85,12 @@
     <Content Include="image\images-removebg-preview.png" />
     <Content Include="image\lion.png" />
     <Content Include="image\uparrow.png" />
+    <Content Include="JavaScript.js" />
     <Content Include="readmorecss.css" />
     <Content Include="readmorelion.html" />
     <Content Include="StyleSheet1.css" />
+    <Content Include="table css.css" />
+    <Content Include="table.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
