@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="calc.css" />
+    <Content Include="calc.html" />
+    <Content Include="calc.js" />
     <Content Include="elephantreadmore.html" />
     <Content Include="horsereadmore.html" />
     <Content Include="HtmlPage1.html" />

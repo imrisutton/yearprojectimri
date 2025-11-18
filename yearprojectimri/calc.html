@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="calc.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <title>calc</title>
+</head>
+<body>
+    <span>הקלד מספר שלם </span>
+    <input type="number" size="20" id="num" />
+    <br />
+    <input type="button" value="שלח" onclick="checkans();" />
+    <br />
+    <table>
+        <tr>
+            <td><input type="text" size="20" id="numrnd" disabled /></td>    
+            <td>+</td>
+            <td><input type="text" size="20" id="numrnd2" disabled/></td>
+            <td>=</td>
+            <td><input type="number" size="20" id="solve"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="הגרל מחדש" onclick="random();" /></td>
+            <td><input type="button" value="בדוק" onclick="calc();" /></td>
+            <td><span id="span1"></span></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>מספר ראשון</th>
+            <td></td>
+            <th> מספר שני</th>
+            <td></td>
+            <th>תוצאה</th>
+            <th>הערכה</th>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="plus1" disabled /></td>
+            <td>+</td>
+            <td><input type="text" size="20" id="plus2" disabled /></td>
+            <td>=</td>
+            <td><input type="text" size="20" id="ans1" /></td>
+            <td><span id="span2"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="minus1" disabled /></td>
+            <td>-</td>
+            <td><input type="text" size="20" id="minus2" disabled /></td>
+            <td>=</td>
+            <td><input type="text" size="20" id="ans2" /></td>
+            <td><span id="span3"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="multi1" disabled /></td>
+            <td>*</td>
+            <td><input type="text" size="20" id="multi2" disabled /></td>
+            <td>=</td>
+            <td><input type="text" size="20" id="ans3" /></td>
+            <td><span id="span4"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="div1" disabled /></td>
+            <td>/</td>
+            <td><input type="text" size="20" id="div2" disabled /></td>
+            <td>=</td>
+            <td><input type="text" size="20" id="ans4" /></td>
+            <td><span id="span5"></span></td>
+        </tr>
+        <tr>
+            <td><input type="text" size="20" id="leftdiv1" disabled /></td>
+            <td>%</td>
+            <td><input type="text" size="20" id="leftdiv2" disabled /></td>
+            <td>=</td>
+            <td><input type="text" size="20" id="ans5" /></td>
+            <td><span id="span6"></span></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="הגרל מחדש" onclick="reroll();" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="בדוק" onclick="check();" /></td>
+        </tr>
+    </table>
+
+
+
+
+
+
+    <script src="calc.js"></script>
+</body>
+</html>
