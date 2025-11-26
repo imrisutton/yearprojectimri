@@ -1,9 +1,14 @@
-﻿body {
-    margin: auto;    
+﻿body table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    background-color:lightblue;
 }
-table {
-    margin: auto
-}
-th{
-    color:darkcyan
+
+
+
+th {
+    color: darkcyan;
+    direction: rtl;
+    border: 1px solid black;
 }

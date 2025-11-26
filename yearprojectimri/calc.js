@@ -54,9 +54,9 @@ function check() {
     var sol3 = parseInt(document.getElementById("ans3").value);
     var n5 = parseInt(document.getElementById("multi1").value);
     var n6 = parseInt(document.getElementById("multi2").value);
-    var sol4 = parseInt(document.getElementById("ans4").value);
-    var n7 = parseInt(document.getElementById("div1").value);
-    var n8 = parseInt(document.getElementById("div2").value);
+    var sol4 = parseFloat(document.getElementById("ans4").value);
+    var n7 = parseFloat(document.getElementById("div1").value);
+    var n8 = parseFloat(document.getElementById("div2").value);
     var sol5 = parseInt(document.getElementById("ans5").value);
     var n9 = parseInt(document.getElementById("leftdiv1").value);
     var n10= parseInt(document.getElementById("leftdiv2").value);
