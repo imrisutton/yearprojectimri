@@ -67,24 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1.html" />
+    <Content Include="2.html" />
+    <Content Include="3.html" />
+    <Content Include="4.html" />
     <Content Include="calc.css" />
     <Content Include="calc.html" />
     <Content Include="calc.js" />
     <Content Include="elephantreadmore.html" />
+    <Content Include="Ex22.css" />
+    <Content Include="Ex22.html" />
+    <Content Include="Ex22.js" />
     <Content Include="horsereadmore.html" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="5.html" />
     <Content Include="js.html" />
     <Content Include="htmlt2.html" />
-    <Content Include="image\download-removebg-preview %281%29.png" />
-    <Content Include="image\download-removebg-preview %282%29.png" />
-    <Content Include="image\download-removebg-preview.png" />
-    <Content Include="image\images-removebg-preview %281%29.png" />
+    <Content Include="image\1.png" />
+    <Content Include="image\2.png" />
+    <Content Include="image\4.png" />
+    <Content Include="image\5.png" />
     <Content Include="image\images-removebg-preview %282%29.png" />
     <Content Include="image\images-removebg-preview %283%29.png" />
     <Content Include="image\images-removebg-preview %284%29.png" />
     <Content Include="image\images-removebg-preview %285%29.png" />
     <Content Include="image\images-removebg-preview %286%29.png" />
-    <Content Include="image\images-removebg-preview %287%29.png" />
+    <Content Include="image\3.png" />
     <Content Include="image\images-removebg-preview.png" />
     <Content Include="image\lion.png" />
     <Content Include="image\uparrow.png" />
