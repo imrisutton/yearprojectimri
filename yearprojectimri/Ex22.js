@@ -36,8 +36,8 @@ div3.appendChild(table);
 //targil 4-7
 var div4 = document.getElementById("div4");
 var table2 = document.createElement("table");
-num = Number(prompt("Enter a number 1-5:"));
-for (var i = 1; i <= num; i++)
+n1 = Number(prompt("Enter a number:"));
+for (var i = 1; i <= n1; i++)
 {
     var tr = document.createElement("tr");
     var td = document.createElement("td");
@@ -47,7 +47,7 @@ for (var i = 1; i <= num; i++)
     img.setAttribute("width", "150px");
     img.setAttribute("height", "50px");
     var link = document.createElement("a");
-    link.setAttribute("href", "i.html");
+    link.setAttribute("href", i+".html");
     link.innerHTML = "קישור לדף " + i
     if (i % 2 == 0)
     {
