@@ -81,6 +81,7 @@
     <Content Include="Ex23.css" />
     <Content Include="Ex23.html" />
     <Content Include="Ex23.js" />
+    <Content Include="Ex24.html" />
     <Content Include="horsereadmore.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="5.html" />
@@ -100,6 +101,9 @@
     <Content Include="image\lion.png" />
     <Content Include="image\uparrow.png" />
     <Content Include="JavaScript.js" />
+    <Content Include="Ex24.js" />
+    <Content Include="last4exc.html" />
+    <Content Include="last4exc.js" />
     <Content Include="readmorecss.css" />
     <Content Include="readmorelion.html" />
     <Content Include="StyleSheet1.css" />

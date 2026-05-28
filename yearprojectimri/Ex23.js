@@ -50,8 +50,6 @@ function DrawLink6(linkIndex, el) {
     el.setAttribute("href", linkIndex+".html");
     el.innerHTML = "קישור לדף " + linkIndex;
     el.setAttribute("style", "color: red;");
-    var div = document.getElementById("el");
-    div.appendChild(el)
 }
 function DrawSomeLinks6() {
     
@@ -72,8 +70,6 @@ function DrawRow(rowIndex, imgHeight, imgWidth, el) {
     tr.appendChild(td);
     tr.appendChild(td2);
     el.appendChild(tr);
-    var div = document.getElementById("el");
-    div.appendChild(el)
 }
 function DrawTable(rows) { 
     for (var i = 1; i <= rows; i++) {
@@ -190,4 +186,3 @@ function ConcatStringstest() {
     var div = document.getElementById("el");
     div.innerText = t;
 }
-ConcatStringstest();
